@@ -51,7 +51,7 @@ def sort(data):
 
 
 def main():
-    url = 'https://www.douyu.com/g_LOL'
+    url = 'https://www.douyu.com/g_LOL'  # 如果想要别的种类多视频的话，可以通过修改这个url来进行修改
     html = get_html_content(url)
     res = get_link_list(html)
     res = get_data(res)
